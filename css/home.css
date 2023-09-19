@@ -1,0 +1,84 @@
+.hero .container {
+  margin-top: 24px;
+  padding-bottom: 0;
+}
+
+.hero .container .right .trust {
+  display: flex;
+  gap: 36px;
+}
+
+.hero .container .right .trust p {
+  font-size: 12px;
+}
+
+.choose .grid {
+  display: grid;
+  gap: 18px;
+}
+
+.choose .grid .item {
+  border: var(--darkprimary) solid 1px;
+  padding: 36px 18px;
+}
+
+.past .grid {
+  display: grid;
+  row-gap: 72px;
+  column-gap: 36px;
+}
+
+.past .grid .item {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.past .grid .item img {
+  border-radius: 10px;
+  border: var(--secondarytext) solid 5px;
+}
+
+.process .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.process .grid .item {
+  padding: 36px 24px;
+  background-color: var(--lightprimary);
+}
+
+.process .grid .item h5 {
+  min-height: 45px;
+}
+
+.hero,
+.what,
+.past {
+  background-color: var(--lightprimary);
+}
+
+@media (min-width: 700px) {
+}
+
+@media (min-width: 1000px) {
+  .choose .container,
+  .process .container,
+  .past .container {
+    flex-direction: column;
+  }
+
+  .choose .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .past .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .process .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

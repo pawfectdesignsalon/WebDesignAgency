@@ -129,7 +129,7 @@ footer {
 
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   justify-content: space-between;
   gap: 36px;
 }
@@ -144,7 +144,7 @@ header .container {
 header .container .right {
   width: 100%;
   flex-direction: row;
-  align-items: start;
+  align-items: center;
   gap: 24px;
 }
 
@@ -201,6 +201,7 @@ li {
 
 .hero .container {
   margin-top: 60px;
+  align-items: center;
 }
 
 .hero .container h1 {

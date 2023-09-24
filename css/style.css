@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  width: 100%;
 }
 
 body {
@@ -63,6 +64,8 @@ a {
   color: var(--accent);
   text-decoration: none;
   font-weight: 500;
+
+  transition: top 0.3s;
 }
 
 a:hover {
@@ -70,10 +73,14 @@ a:hover {
 }
 
 .primary {
+  max-width: 300px;
+
   font-size: 12px;
   padding: 12px 36px;
   background-color: var(--accent);
   border: var(--accent) 2px solid;
+
+  transition: top 0.8s;
 }
 
 .primary:hover {
@@ -118,7 +125,7 @@ footer {
 .container {
   max-width: 1200px;
   width: 100%;
-  padding: 96px 36px;
+  padding: 96px 18px;
 
   display: flex;
   flex-direction: column;
@@ -141,7 +148,13 @@ header .container .right {
   gap: 24px;
 }
 
+header .container .right .logo {
+  max-width: 150px;
+}
+
 header .container .left {
+  max-width: 300px;
+
   display: none;
 }
 
@@ -179,6 +192,20 @@ ul {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 0px;
+  width: fit-content;
+}
+
+li {
+  width: fit-content;
+}
+
+.hero .container {
+  margin-top: 80px;
+}
+
+.hero .container h1 {
+  text-align: center;
+  font-size: 36px;
 }
 
 .cta {
@@ -256,7 +283,12 @@ footer .top {
 footer .top .container {
   width: 100%;
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 32px;
+}
+
+footer .top .container .full {
+  grid-column: 1 / span 2;
 }
 
 footer .top .container div {
@@ -315,6 +347,18 @@ footer {
   background-color: var(--lightprimary);
 }
 
+.straight .container {
+  padding: 24px;
+}
+
+.straight ul {
+  flex-direction: column;
+  gap: 18px;
+  list-style-type: disc;
+  margin-inline-start: 36px;
+  margin-inline-end: 36px;
+}
+
 @media (min-width: 700px) {
   h1 {
     font-size: 24px;
@@ -349,12 +393,20 @@ footer {
     display: none;
   }
 
+  .container {
+    padding: 96px 36px;
+  }
+
   header .container .left {
     display: block;
   }
 
   footer .top .container {
     grid-template-columns: 1.5fr 1fr 1fr 1.5fr 1.5fr;
+  }
+
+  footer .top .container .full {
+    grid-column: auto;
   }
 }
 

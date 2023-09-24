@@ -1,3 +1,8 @@
+.hero .container h1 {
+  text-align: start !important;
+  font-size: 24px !important;
+}
+
 .hero .container {
   margin-top: 24px;
   padding-bottom: 0;

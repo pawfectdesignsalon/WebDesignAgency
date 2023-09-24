@@ -305,9 +305,14 @@ footer .top .container div ul {
   align-items: start;
 }
 
+footer .top .container .connect {
+  justify-content: center;
+}
+
 footer .top .container .connect .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  width: fit-content;
   gap: 18px;
 }
 

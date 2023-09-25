@@ -54,7 +54,8 @@ h5 {
   margin-bottom: 0;
 }
 
-p {
+p,
+li {
   font-size: 12px;
   margin-top: 0;
   margin-bottom: 0;
@@ -376,7 +377,8 @@ footer {
     font-size: 36px;
   }
 
-  p {
+  p,
+  li {
     font-size: 18px;
   }
 

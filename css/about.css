@@ -1,10 +1,21 @@
+#story img {
+  width: 400px;
+  height: auto;
+}
+
 .mission {
   background-color: var(--lightprimary);
+  padding: 60px 0px;
 }
 
 .mission ul {
   max-width: 800px;
   list-style-type: decimal;
+  margin: auto;
+}
+
+.team {
+  padding: 60px 0px;
 }
 
 @media (min-width: 786px) {

@@ -3,5 +3,13 @@
 }
 
 .mission ul {
+  max-width: 800px;
   list-style-type: decimal;
+}
+
+@media (min-width: 786px) {
+  .team .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

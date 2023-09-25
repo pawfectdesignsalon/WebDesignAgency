@@ -417,6 +417,10 @@ footer {
   .left {
     max-width: 600px;
   }
+
+  footer .top .container .full {
+    grid-column: auto;
+  }
 }
 
 @media (min-width: 1000px) {

@@ -1,0 +1,7 @@
+.mission {
+  background-color: var(--lightprimary);
+}
+
+.mission ul {
+  list-style-type: decimal;
+}

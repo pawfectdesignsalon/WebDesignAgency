@@ -175,8 +175,6 @@ header nav {
 
 .right,
 .left {
-  max-width: 600px;
-
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -413,6 +411,11 @@ footer {
 
   footer .top .container .full {
     grid-column: auto;
+  }
+
+  .right,
+  .left {
+    max-width: 600px;
   }
 }
 

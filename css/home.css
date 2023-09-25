@@ -4,7 +4,6 @@
 }
 
 .hero .container {
-  margin-top: 0px !important;
   padding-bottom: 0;
 }
 
@@ -65,7 +64,10 @@
   background-color: var(--lightprimary);
 }
 
-@media (min-width: 700px) {
+@media (min-width: 768px) {
+  .hero .container {
+    margin-top: 0px !important;
+  }
 }
 
 @media (min-width: 1000px) {

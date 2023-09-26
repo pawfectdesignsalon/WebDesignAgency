@@ -423,6 +423,10 @@ footer {
   footer .top .container .full {
     grid-column: auto;
   }
+
+  /* .first p {
+    columns: 3;
+  } */
 }
 
 @media (min-width: 1000px) {

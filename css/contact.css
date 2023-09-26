@@ -1,0 +1,25 @@
+.contact .right div {
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  gap: 18px;
+}
+
+.contact .left {
+  padding: 48px;
+
+  background-color: var(--lightprimary);
+}
+
+.grid {
+  max-width: 800px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 36px;
+}
+
+.grid a {
+  width: 100px;
+}

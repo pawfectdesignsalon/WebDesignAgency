@@ -3,6 +3,25 @@
   font-size: 24px !important;
 }
 
+.hero .right {
+  position: relative;
+
+  isolation: isolate;
+}
+
+.hero .right .paws {
+  position: absolute;
+
+  left: -100px;
+  top: -100px;
+
+  width: 300px;
+
+  z-index: -1;
+
+  opacity: 0.2;
+}
+
 .hero .container {
   padding-bottom: 0;
 }

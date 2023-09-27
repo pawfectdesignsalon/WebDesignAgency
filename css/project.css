@@ -1,0 +1,13 @@
+.project img {
+  border-radius: 10px;
+  border: 6px var(--grey) solid;
+  margin: 36px 0;
+}
+
+br {
+  display: block;
+  content: '';
+  margin: auto;
+  width: 80%;
+  border: 1px solid var(--darkprimary);
+}

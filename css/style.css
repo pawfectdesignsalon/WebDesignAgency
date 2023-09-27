@@ -106,6 +106,7 @@ a:hover {
 
 .icon {
   font-size: 32px;
+  width: fit-content;
 }
 
 header .container {
@@ -310,7 +311,7 @@ footer .top .container .connect {
 
 footer .top .container .connect .grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   width: fit-content;
   gap: 18px;
 }
@@ -407,10 +408,6 @@ footer {
     display: block;
   }
 
-  footer .top .container {
-    grid-template-columns: 1.5fr 1fr 1fr 1.5fr 1.5fr;
-  }
-
   footer .top .container .full {
     grid-column: auto;
   }
@@ -418,10 +415,6 @@ footer {
   .right,
   .left {
     max-width: 600px;
-  }
-
-  footer .top .container .full {
-    grid-column: auto;
   }
 
   /* .first p {
@@ -437,5 +430,13 @@ footer {
   .straight .container {
     flex-direction: column;
     align-items: start;
+  }
+
+  footer .top .container {
+    grid-template-columns: 1.5fr 1fr 1fr 1.5fr 1.5fr;
+  }
+
+  footer .top .container .connect .grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

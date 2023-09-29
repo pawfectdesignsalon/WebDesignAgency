@@ -112,6 +112,12 @@
   background-color: var(--lightprimary);
 }
 
+.contact .left img {
+  display: none;
+  padding: 80px;
+  background-color: var(--darkprimary);
+}
+
 @media (min-width: 768px) {
   .hero .container {
     margin-top: 0px !important;

@@ -103,7 +103,18 @@ a:hover {
 #myLinks {
   display: none;
 
+  position: absolute;
+
+  top: 100px;
+  background-color: var(--lightprimary);
+
   width: 100%;
+}
+
+#myLinks ul {
+  flex-direction: column;
+
+  padding: 24px;
 }
 
 .icon {
@@ -398,6 +409,16 @@ footer {
 
   #myLinks {
     display: block;
+
+    position: relative;
+
+    top: 0;
+  }
+
+  #myLinks ul {
+    flex-direction: row;
+
+    padding: 0;
   }
 
   .icon {

@@ -93,12 +93,11 @@
 
 .process .grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   gap: 18px;
 }
 
 .process .grid .item {
-  padding: 36px 24px;
+  padding: 18px;
   background-color: var(--lightprimary);
 }
 
@@ -121,6 +120,14 @@
 @media (min-width: 768px) {
   .hero .container {
     margin-top: 0px !important;
+  }
+
+  .process .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .process .grid .item {
+    padding: 36px 24px;
   }
 }
 

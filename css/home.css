@@ -12,14 +12,16 @@
 .hero .right .paws {
   position: absolute;
 
-  left: -100px;
-  top: -100px;
+  left: -200px;
+  top: -150px;
 
-  width: 300px;
+  width: 500px;
 
   z-index: -1;
 
-  opacity: 0.2;
+  color: rgba(44, 44, 43, 0.1);
+
+  opacity: 0.1;
 }
 
 .hero .container {
@@ -35,6 +37,13 @@
   font-size: 12px;
 }
 
+.choose {
+  background-image: url(../images/why-background.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .choose .grid {
   display: grid;
   gap: 18px;
@@ -43,6 +52,26 @@
 .choose .grid .item {
   border: var(--darkprimary) solid 1px;
   padding: 36px 18px;
+}
+
+.past .container {
+  position: relative;
+  isolation: isolate;
+}
+
+.past .paws {
+  position: absolute;
+
+  right: 0;
+  top: -250px;
+
+  width: 500px;
+
+  z-index: -1000;
+
+  color: rgba(44, 44, 43, 0.1);
+
+  opacity: 0.1;
 }
 
 .past .grid {

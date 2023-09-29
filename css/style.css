@@ -92,6 +92,8 @@ a:hover {
   position: fixed;
   top: 0;
   background-color: var(--lightprimary);
+  z-index: 10000;
+  /* isolation: isolate; */
 
   width: 100%;
   height: auto;
@@ -111,6 +113,7 @@ a:hover {
 
 header .container {
   margin: auto;
+  z-index: 1000;
 }
 
 section,
@@ -164,6 +167,7 @@ header a {
   font-size: 12px;
   text-decoration: none;
   color: var(--secondarytext);
+  z-index: 1000;
 }
 
 header a:hover {

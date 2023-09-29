@@ -113,7 +113,7 @@ a:hover {
 
 header .container {
   margin: auto;
-  z-index: 1000;
+  position: relative;
 }
 
 section,
